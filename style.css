@@ -36,7 +36,7 @@
   }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-{
+body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -127,6 +127,12 @@ html {
     padding-left: 100px;
     padding-right: 100px;
     gap: 49px;
+}
+
+@media (min-width: 1441px) {
+    .landing {
+        padding-top: 70px; 
+    }
 }
 
 .about-me img {
