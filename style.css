@@ -1,0 +1,153 @@
+/*FONTS*/
+@font-face {
+    font-family: 'AbhayaLibre-Bold';
+    src: url(assets/fonts/AbhayaLibre-Bold.ttf);
+}
+@font-face {
+    font-family: 'AbhayaLibre-Regular';
+    src: url(assets/fonts/AbhayaLibre-Regular.ttf);
+}
+@font-face {
+    font-family: 'Brown-Sugar';
+    src: url(assets/fonts/Brown-Sugar.ttf);
+}
+@font-face {
+    font-family: 'OpenSauceOne-Bold';
+    src: url(assets/fonts/OpenSauceOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'OpenSauceSans-Bold';
+    src: url(assets/fonts/OpenSauceSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'OpenSauceTwo-Bold';
+    src: url(assets/fonts/OpenSauceTwo-Bold.ttf);
+}
+
+/* COLORS */
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* LANDING SECTION */
+.landing {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media (min-width: 1441px) {
+    .landing {
+        padding-top: 70px; 
+    }
+}
+
+.landing img {
+    width: 542px;
+    height: 813px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    gap: 548px;
+    margin-left: 49px;
+}
+
+.landing-text p {
+    margin: 0;
+}
+
+.landing-text .header {
+    font-family: 'Brown-Sugar';
+    font-size: 96px;
+    color: var(--white-color);
+}
+
+.landing-text .header p {
+    margin: 0;
+    line-height: 1;
+}
+
+.landing-text .bottom-text {
+    font-family: 'AbhayaLibre-Regular';
+    width: 254px;
+    height: 73px;
+    font-size: 36px;
+    color: var(--white-color);
+}
+
+.landing-text .bottom-text p {
+    margin: 0;
+    line-height: 1;
+}
+
+.landing-text .bottom-text .Designation {
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 28px;
+    color: var(--white-color);
+}
+
+/* ABOUT ME SECTION */
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 49px;
+}
+
+.about-me img {
+    width: 542px;
+    height: 616px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+}
+
+.about-me-text .header p {
+    font-family: 'Brown-Sugar';
+    font-size: 96px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.about-me-text .body p {
+    margin: 0;
+    line-height: 1;
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 24px;
+    color: var(--white-color);
+    padding-left: 248px;
+    padding-bottom: 182px;
+}
+
