@@ -28,7 +28,11 @@
 :root {
     --black-color: #000000;
     --white-color: #ffffff;
+    --grey-color: #808080;
 }
+
+
+/* GENERAL CONFIG */
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
@@ -51,6 +55,13 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.img-label {
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 18px;
+    color: var(--white-color);
+    line-height: 1;
 }
 
 /* LANDING SECTION */
@@ -190,6 +201,32 @@ html {
     padding-bottom: 182px;
 }
 
+/* WORK WITH ME BTN */
+.work-with-me-btn-hover {
+    width: 200px; 
+    height: 50px; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    background-color: var(--white-color); 
+    font-family: 'OpenSauceSans-Bold'; 
+    font-size: 18px; 
+    text-align: center;
+    line-height: 50px; 
+    color: var(--black-color);
+    text-decoration: none; 
+    border-radius: 25px; 
+    transition: background-color 0.3s, transform 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s; 
+}   
+
+.show-work-with-me-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* BEST WORK SECTION */
 .best-work {
     display: flex;
@@ -234,3 +271,62 @@ html {
     object-fit: fill;
     border-radius: 20px;
 }
+
+/* PREVIOUS WORK SECTION */
+
+.previous-work {
+    display: flex;
+    max-width: 1440px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+}
+
+.previous-work-1 {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 50px;
+}
+
+.previous-work-1 .header-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+}
+
+.previous-work-1 .header-img-container .header {
+    padding-bottom: 45px;
+}
+
+.previous-work-1 .header-img-container .header p {
+
+    font-family: 'Brown-Sugar';
+    font-size: 96px;
+    margin: 0;
+    line-height: 1;
+    color: var(--white-color);
+    text-align: left;
+}
+
+.previous-work-1 .header-img-container img {
+    width: 647px;
+    height: 417px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.previous-work-1 .img-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.previous-work-1 .img-2 img {
+    width: 516px;
+    height: 627px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
