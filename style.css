@@ -151,16 +151,10 @@ html {
     justify-content: center;
     align-items: center;
     max-width: 1440px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
     gap: 49px;
-}
-
-@media (min-width: 1441px) {
-    .about-me {
-        padding-top: 80px; 
-    }
 }
 
 .about-me img {
@@ -196,3 +190,29 @@ html {
     padding-bottom: 182px;
 }
 
+/* BEST WORK SECTION */
+.best-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.best-work-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+}
+
+.best-work-text .header p {
+    font-family: 'Brown-Sugar';
+    font-size: 96px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
