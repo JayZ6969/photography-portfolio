@@ -244,20 +244,37 @@ html {
 
 /* BEST WORK SECTION */
 .best-work {
-    display: flex;
-    max-width: 1440px;
+    width: 1240px;
     padding-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
-    gap: 40px;
+}
+
+.best-work-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .best-work-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    align-content: space-between;
+    gap: 25px;
+}
+
+.best-work-text .header {
+    display: flex;
+    justify-content: flex-start;
     align-content: flex-start;
-    gap: 14px;
+}
+
+.best-work-text .body {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 
 .best-work-text .header p {
@@ -276,13 +293,11 @@ html {
     font-size: 28px;
     color: var(--white-color);
     text-align: right;
-    padding-left: 130px;
-    padding-bottom: 140px;
 }
 
 .best-work img {
-    width: 867px;
-    height: 578px;
+    width: 870px;
+    height: 580px;
     object-fit: fill;
     border-radius: 20px;
 }
