@@ -65,7 +65,7 @@ html {
 }
 
 /* LANDING SECTION */
-.landing-section {
+.landing {
     width: 1240px;
     padding-top: 100px;
     padding-left: 100px;
@@ -73,7 +73,7 @@ html {
 }
 
 @media (min-width: 1441px) {
-    .landing-section {
+    .landing {
         padding-top: 70px; 
     }
 }
@@ -734,3 +734,171 @@ html {
     object-fit: cover;
     border-radius: 20px;
 }
+
+/* EXPERIENCE SECTION */
+.experience {
+    width: 1240px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.experience-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.experience-container img {
+    width: 540px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.experience-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 25px;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 25px;
+}
+
+.experience-text .header {
+    font-family: 'Brown-Sugar';
+    font-size: 78px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.experience-text .body .body-header {
+    font-family: 'OpenSauceSans-Bold';
+    font-size: 28px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.experience-text .body .body-text {
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 20px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+/* GET IN TOUCH SECTION */
+.get-in-touch {
+    width: 1240px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.get-in-touch-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.get-in-touch-container img {
+    width: 540px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.get-in-touch-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.get-in-touch-text .header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.get-in-touch-text .header p {
+    font-family: 'Brown-Sugar';
+    font-size: 96px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.get-in-touch-text .body {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.get-in-touch-text .title {
+    font-family: 'OpenSauceSans-Bold';
+    font-size: 28px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.get-in-touch-text a {
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 20px;
+    color: var(--white-color);
+    text-decoration: underline;
+    margin: 0;
+    line-height: 1;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-container p {
+    font-family: 'AbhayaLibre-Regular';
+    font-size: 18px;
+    color: var(--white-color);
+    margin: 0;
+    line-height: 1;
+}
+
+
