@@ -166,6 +166,7 @@ html {
     .landing-container img {
         width: 37.5vw;
         height: 55.556vw;
+        border-radius: 1.389vw;
     }
 }
 
@@ -305,6 +306,7 @@ html {
     .about-me-container img {
         width: 37.5vw;
         height: 41.667vw;
+        border-radius: 1.389vw;
     }
 }
 
