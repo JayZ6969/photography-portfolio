@@ -1,3 +1,4 @@
+//WORK WITH ME BTN HOVER VISIBILITY LOGIC   
 document.addEventListener("DOMContentLoaded", function() {
     const btn = document.querySelector('.work-with-me-btn-hover'); // The button
     const LandingSection = document.getElementById('landing'); // The "About Me" section
