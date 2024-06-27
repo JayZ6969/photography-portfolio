@@ -51,6 +51,19 @@
     width: 10px; 
     height: 10px; 
 }
+
+@media (max-width: 1439px) {
+    ::-webkit-scrollbar {
+        width: 0.694vw; 
+        height: 0.694vw; 
+    }
+}
+
+@media (max-width: 865px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
   
 /* Customizes the scrollbar track */
 ::-webkit-scrollbar-track {
@@ -62,6 +75,14 @@
     background: #555; 
     border-radius: 25px; 
 }
+
+@media (max-width: 1439px) {
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1.736vw; 
+    }
+}
+
+
   
 /* Customizes the scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
