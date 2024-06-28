@@ -139,12 +139,13 @@ html {
 
 @media (max-width: 425px) {
     .landing { 
-        width: 405px;
-        height: 100vh;
-        padding-top: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85.882vw;
+        height: 100dvh;
+        padding: 7.059vw 7.059vw 0vw 7.059vw;   
     }
 }
 
@@ -163,9 +164,11 @@ html {
 
 @media (max-width: 425px) {
     .landing-container {
+        flex-grow: 1;
         flex-direction: column;
         align-items: center;
-        height: 100%;
+        justify-content: flex-start;
+        gap: 3.765vw;
     }
 }
 
@@ -187,18 +190,25 @@ html {
 @media (max-width: 425px) {
     .landing-container img {
         order: 2;
-        width: 385px;
-        height: 570px;
-        border-radius: 20px;
+        width: 84.706vw;
+        height: 75dvh;
+        border-radius: 4.706vw;
     }
 }
 
 .landing-body {
-    flex-grow: 1;
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+}
+
+@media (max-width: 425px) {
+    .landing-body {
+        width: 85.882vw;
+        padding: 0;
+    }
 }
 
 .landing-body .header p {
@@ -209,9 +219,15 @@ html {
     line-height: 1;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 426px) and (max-width: 1439px) {
     .landing-body .header p {
         font-size: 6.667vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing-body .header p {
+        font-size: 12.706vw;
     }
 }
 
@@ -235,6 +251,13 @@ html {
     }
 }
 
+@media (max-width: 425px) {
+    .landing-body .footer .footer-text p {
+        font-size: 4.706vw;
+        line-height: 0.8;
+    }
+}
+
 .landing-body .footer .footer-text .Designation {
     font-family: 'AbhayaLibre-Regular';
     font-size: 28px;
@@ -244,6 +267,12 @@ html {
 @media (max-width: 1439px) {
     .landing-body .footer .footer-text .Designation {
         font-size: 1.944vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing-body .footer .footer-text .Designation {
+        font-size: 3.294vw;
     }
 }
 
@@ -265,6 +294,14 @@ html {
     }
 }
 
+@media (max-width: 425px) {
+    .landing-body .footer .work-with-me-btn {
+        width: 23.529vw;
+        height: 7.059vw;
+        border-radius: 9.412vw;
+    }
+}
+
 .landing-body .footer .work-with-me-btn a {
     display: block; 
     width: 100%; 
@@ -282,6 +319,13 @@ html {
     .landing-body .footer .work-with-me-btn a {
         font-size: 1.25vw;
         line-height: 3.472vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing-body .footer .work-with-me-btn a {
+        font-size: 1.882vw;
+        line-height: 7.059vw;
     }
 }
 
