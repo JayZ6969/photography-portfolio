@@ -32,19 +32,6 @@
 }
 
 
-/* GENERAL CONFIG */
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-/* ::-webkit-scrollbar {
-    display: none;
-} */
-
-/* Hide scrollbar for IE, Edge and Firefox */
-/* body {
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
-} */
-
 /* Scrollbar Styling */
 /* Customizes the whole scrollbar */
 ::-webkit-scrollbar {
@@ -93,6 +80,8 @@ body {
     scrollbar-color: #555 #2e2e2e; 
 }
 
+/* GENERAL CONFIG */
+
 body {
     display: flex;
     flex-direction: column;
@@ -100,6 +89,12 @@ body {
     align-items: center;
     background-color: var(--black-color);
     overflow-x: hidden;
+}
+
+@media (max-width: 1439px) {
+    body {
+    margin: 0;
+}
 }
 
 html {
@@ -133,12 +128,23 @@ html {
     }
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 426px) and (max-width: 1439px) {
     .landing {
         width: 86.111vw;
         padding-top: 6.944vw;
         padding-left: 6.944vw;
         padding-right: 6.944vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing { 
+        width: 405px;
+        height: 100vh;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
     }
 }
 
@@ -149,9 +155,17 @@ html {
     gap: 50px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 426px) and (max-width: 1439px) {
     .landing-container {
         gap: 3.472vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing-container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
     }
 }
 
@@ -162,11 +176,20 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 426px) and (max-width: 1439px) {
     .landing-container img {
         width: 37.5vw;
         height: 55.556vw;
         border-radius: 1.389vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .landing-container img {
+        order: 2;
+        width: 385px;
+        height: 570px;
+        border-radius: 20px;
     }
 }
 
