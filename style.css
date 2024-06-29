@@ -908,6 +908,29 @@ html {
 
 @media (max-width: 430px) {
     .page-2 .img-6 {
+        gap: 0;
+    }
+}
+
+.page-2 .img-6 .img-label-alt {
+    display: none;
+}
+
+@media (max-width: 430px) {
+    .page-2 .img-6 .img-label {
+        display: none;
+    }
+    .page-2 .img-6 .img-label-alt{
+        display: block;
+        font-family: 'AbhayaLibre-Regular';
+        font-size: 3.256vw;
+        color: var(--white-color);
+        line-height: 1;
+    }
+}
+
+@media (max-width: 430px) {
+    .page-2 .img-6 {
         align-items: start;
         gap: 0;
     }
@@ -957,6 +980,24 @@ html {
 @media (max-width: 430px) {
     .page-2 .img-7 {
         gap: 0;
+    }
+}
+
+.page-2 .img-7 .img-label-alt {
+    display: none;
+}
+
+@media (max-width: 430px) {
+    .page-2 .img-7 .img-label {
+        display: none;
+    }
+    .page-2 .img-7 .img-label-alt{
+        order: 2;
+        display: block;
+        font-family: 'AbhayaLibre-Regular';
+        font-size: 3.256vw;
+        color: var(--white-color);
+        line-height: 1;
     }
 }
 
