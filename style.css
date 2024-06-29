@@ -1941,12 +1941,21 @@ html {
     padding-right: 100px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .get-in-touch {
         width: 86.111vw;
         padding-top: 5.556vw;
         padding-left: 6.944vw;
         padding-right: 6.944vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .get-in-touch {
+        width: 86.047vw;
+        padding-top: 3.488vw;
+        padding-left: 6.977vw;
+        padding-right: 6.977vw;
     }
 }
 
@@ -1961,6 +1970,12 @@ html {
 @media (max-width: 1439px) {
     .get-in-touch-container {
         gap: 3.472vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .get-in-touch-container {
+        gap: 0;
     }
 }
 
@@ -1979,6 +1994,12 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+    .get-in-touch-container img {
+        width: 50%;
+    }
+}
+
 .get-in-touch-text {
     width: 50%;
     display: flex;
@@ -1991,6 +2012,16 @@ html {
 @media (max-width: 1439px) {
     .get-in-touch-text {
         gap: 3.472vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .get-in-touch-text {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 2.326vw;
     }
 }
 
@@ -2014,6 +2045,12 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+    .get-in-touch-text .header p {
+        font-size: 12.093vw;
+    }
+}
+
 .get-in-touch-text .body {
     display: flex;
     flex-direction: column;
@@ -2025,6 +2062,13 @@ html {
     .get-in-touch-text .body {
         gap: 1.736vw;
         margin-left: 3.472vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .get-in-touch-text .body {
+        gap: 2.326vw;
+        margin-left: 6.977vw;
     }
 }
 
@@ -2042,6 +2086,12 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+    .get-in-touch-text .title {
+        font-size: 4.186vw;
+    }
+}
+
 .get-in-touch-text a {
     font-family: 'AbhayaLibre-Regular';
     font-size: 20px;
@@ -2056,6 +2106,12 @@ html {
         font-size: 1.389vw;
     }
 }
+
+@media (max-width: 430px) {
+    .get-in-touch-text a {
+        font-size: 3.256vw;
+    }
+}   
 
 /* FOOTER */
 .footer {
@@ -2075,6 +2131,13 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+    .footer {
+        margin-top: 3.488vw;
+        margin-bottom: 2.093vw;
+    }
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
@@ -2085,6 +2148,12 @@ html {
 @media (max-width: 1439px) {
     .footer-container {
         gap: 3.472vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .footer-container {
+        gap: 2.326vw;
     }
 }
 
@@ -2099,6 +2168,12 @@ html {
 @media (max-width: 1439px) {
     .footer-container p {
         font-size: 1.25vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .footer-container p {
+        font-size: 2.907vw;
     }
 }
 
