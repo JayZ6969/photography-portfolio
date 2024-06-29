@@ -1941,18 +1941,6 @@ html {
     }
 }
 
-.experience-text .body {
-    line-height: 1;
-    margin: 0
-}
-
-@media (min-width: 431px) and (max-width: 1439px) {
-    .experience-text .body  {
-        line-height: 1;
-        margin: 0;
-    }
-}
-
 @media (max-width: 430px) {
     .experience-text .body  {
         line-height: 1;
