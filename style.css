@@ -1611,7 +1611,7 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .page-12 .img-35 img {
         width: 27.431vw;
         height: 40.972vw;
@@ -1654,7 +1654,7 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .page-13 .img-36 img {
         width: 27.431vw;
         height: 40.972vw;
@@ -1684,7 +1684,7 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .page-13 .img-37 img {
         width: 55.556vw;
         height: 36.806vw;
@@ -1721,7 +1721,7 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .page-14 .img-38 img {
         width: 62.847vw;
         height: 41.667vw;
