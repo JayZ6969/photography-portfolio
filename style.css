@@ -128,7 +128,7 @@ html {
     }
 }
 
-@media (min-width: 426px) and (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing {
         width: 86.111vw;
         padding-top: 6.944vw;
@@ -137,15 +137,15 @@ html {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing { 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 85.882vw;
-        height: 100dvh;
-        padding: 7.059vw 7.059vw 0vw 7.059vw;   
+        width: 84.884vw;
+        height: 95svh;
+        padding: 6.977vw 6.977vw 0vw 6.977vw;   
     }
 }
 
@@ -156,19 +156,19 @@ html {
     gap: 50px;
 }
 
-@media (min-width: 426px) and (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-container {
         gap: 3.472vw;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-container {
         flex-grow: 1;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        gap: 3.765vw;
+        gap: 3.721vw;
     }
 }
 
@@ -179,7 +179,7 @@ html {
     border-radius: 20px;
 }
 
-@media (min-width: 426px) and (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-container img {
         width: 37.5vw;
         height: 55.556vw;
@@ -187,12 +187,12 @@ html {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-container img {
         order: 2;
-        width: 84.706vw;
-        height: 75dvh;
-        border-radius: 4.706vw;
+        width: 83.721vw;
+        height: 75svh;
+        border-radius: 4.651vw;
     }
 }
 
@@ -204,9 +204,9 @@ html {
     align-items: stretch;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body {
-        width: 85.882vw;
+        width: 84.884vw;
         padding: 0;
     }
 }
@@ -219,15 +219,15 @@ html {
     line-height: 1;
 }
 
-@media (min-width: 426px) and (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-body .header p {
         font-size: 6.667vw;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body .header p {
-        font-size: 12.706vw;
+        font-size: 12.558vw;
     }
 }
 
@@ -245,15 +245,15 @@ html {
     line-height: 1;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-body .footer .footer-text p {
         font-size: 2.5vw;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body .footer .footer-text p {
-        font-size: 4.706vw;
+        font-size: 4.651vw;
         line-height: 0.8;
     }
 }
@@ -264,15 +264,15 @@ html {
     color: var(--white-color);
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-body .footer .footer-text .Designation {
         font-size: 1.944vw;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body .footer .footer-text .Designation {
-        font-size: 3.294vw;
+        font-size: 3.256vw;
     }
 }
 
@@ -286,7 +286,7 @@ html {
     border-radius: 25px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-body .footer .work-with-me-btn {
         width: 13.889vw;
         height: 3.472vw;
@@ -294,11 +294,11 @@ html {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body .footer .work-with-me-btn {
-        width: 23.529vw;
-        height: 7.059vw;
-        border-radius: 9.412vw;
+        width: 23.256vw;
+        height: 6.977vw;
+        border-radius: 9.302vw;
     }
 }
 
@@ -315,17 +315,17 @@ html {
     line-height: 50px; 
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .landing-body .footer .work-with-me-btn a {
         font-size: 1.25vw;
         line-height: 3.472vw;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .landing-body .footer .work-with-me-btn a {
-        font-size: 1.882vw;
-        line-height: 7.059vw;
+        font-size: 1.86vw;
+        line-height: 6.977vw;
     }
 }
 
