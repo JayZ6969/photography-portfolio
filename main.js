@@ -1,19 +1,14 @@
-//WORK WITH ME BTN HOVER VISIBILITY LOGIC   
-document.addEventListener("DOMContentLoaded", function() {
-    const btn = document.querySelector('.work-with-me-btn-hover'); // The button
-    const LandingSection = document.getElementById('landing'); // The "About Me" section
-    const ExperienceSection = document.getElementById('experience'); // The "Experience" section
+// //WORK-WITH-ME-BTN-HOVER VISIBILITY LOGIC   
+  window.addEventListener('scroll', function() {
+    const btn = document.querySelector('.work-with-me-btn-hover');
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const docHeight = document.documentElement.scrollHeight;
 
-    const offsetToShowButton = LandingSection.offsetHeight + LandingSection.offsetTop;
-    const offsetToHideButton = ExperienceSection.offsetHeight + ExperienceSection.offsetTop;
-
-    console.log("Scroll Position:", window.pageYOffset, "Show Button At:", offsetToShowButton, "Hide Button At:", offsetToHideButton);
-
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > offsetToShowButton && window.pageYOffset < offsetToHideButton) {
-            btn.classList.add('show-work-with-me-btn');
-        } else {
-            btn.classList.remove('show-work-with-me-btn');
-        }
-    });
-});
+    // Show button if not at the top or bottom
+    if (scrollPosition > 0 && (scrollPosition + windowHeight) < docHeight) {
+      btn.classList.add('show-work-with-me-btn');
+    } else {
+      btn.classList.remove('show-work-with-me-btn');
+    }
+  });
