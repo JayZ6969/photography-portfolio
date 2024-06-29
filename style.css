@@ -1827,13 +1827,12 @@ html {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    gap: 25px;
+    gap: 0px;
 }
 
 @media (max-width: 1439px) {
     .experience-content {
         margin-left: 3.472vw;
-        gap: 1.736vw;
     }
 }
 
@@ -1842,6 +1841,22 @@ html {
         margin-left: 6.977vw;
         margin-bottom: 3.488vw;
         gap: 2.326vw;
+    }
+}
+
+.experience-content p {
+    margin: 16px;
+}
+
+@media (min-width: 431px) and (max-width: 1439px) {
+    .experience-content p {
+        margin: 1.111vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .experience-content p {
+        margin: 2.326vw;
     }
 }
 
@@ -1923,6 +1938,18 @@ html {
 @media (max-width: 430px) {
     .experience-text .body .body-text {
         font-size: 3.256vw;
+    }
+}
+
+.experience-text .body {
+    line-height: 1;
+    margin: 0
+}
+
+@media (min-width: 431px) and (max-width: 1439px) {
+    .experience-text .body  {
+        line-height: 1;
+        margin: 0;
     }
 }
 
