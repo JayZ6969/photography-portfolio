@@ -143,7 +143,7 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 84.884vw;
+        width: 86.047vw;
         height: 95svh;
         padding: 6.977vw 6.977vw 0vw 6.977vw;   
     }
@@ -190,7 +190,7 @@ html {
 @media (max-width: 430px) {
     .landing-container img {
         order: 2;
-        width: 83.721vw;
+        width: 86.047vw;
         height: 75svh;
         border-radius: 4.651vw;
     }
@@ -338,12 +338,21 @@ html {
     padding-right: 100px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .about-me {
         width: 86.111vw;
         padding-top: 5.556vw;
         padding-left: 6.944vw;
         padding-right: 6.944vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-me {
+        width: 86.047vw;
+        padding-top: 6.977vw;
+        padding-left: 6.977vw;
+        padding-right: 6.977vw;
     }
 }
 
@@ -361,6 +370,15 @@ html {
     }
 }
 
+@media (max-width: 430px) {
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3.721vw;
+    }
+}
+
 .about-me-container img {
     width: 540px;
     height: 600px;
@@ -369,11 +387,20 @@ html {
     flex-shrink: 0;
 }
 
-@media (max-width: 1439px) {
+@media (min-width:431px) and (max-width: 1439px) {
     .about-me-container img {
         width: 37.5vw;
         height: 41.667vw;
         border-radius: 1.389vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-me-container img {
+        order: 2;
+        width: 86.047vw;
+        height: 50svh;
+        border-radius: 4.651vw;
     }
 }
 
@@ -389,6 +416,13 @@ html {
 @media (max-width: 1439px) {
     .about-me-text {
         gap: 1.736vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-me-text {
+        width: 84.884vw;
+        padding: 0;
     }
 }
 
@@ -414,9 +448,15 @@ html {
     line-height: 1;
 }
 
-@media (max-width: 1439px) {
+@media (min-width:431px) and (max-width: 1439px) {
     .about-me-text .header p {
         font-size: 6.667vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-me-text .header p {
+        font-size: 12.558vw;
     }
 }
 
@@ -428,9 +468,15 @@ html {
     line-height: 1;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 431px) and (max-width: 1439px) {
     .about-me-text .body p {
         font-size: 1.667vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-me-text .body p {
+        font-size: 3.256vw;
     }
 }
 
